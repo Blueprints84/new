@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Gardener - Gardening Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h1 class="m-0">MITIRHO HOLDING GROUP</h1>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="price.html" class="nav-item nav-link active">Prices</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                    <div class="dropdown-menu bg-light m-0">
+                        <a href="financial.html" class="dropdown-item">financial</a>
+                        <a href="cleaning.html" class="dropdown-item">Cleaning</a>
+                        <a href="gardening.html" class="dropdown-item">Gardening</a>
+                        <a href="construction.html" class="dropdown-item">Construction</a>
+                        
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu bg-light m-0">
+                        <a href="blog.html" class="dropdown-item">Blog</a>
+                        <a href="testmonials.html" class="dropdown-item">Testimonial</a>
+                        <a href="team.html" class="dropdown-item">Team</a>
+                        
+                    </div>
+                </div> 
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+          
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword">
+                        <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+
+    <!-- Blog Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <!-- Blog list Start -->
+                <div class="col-lg-8">
+                    <div class="row g-5">
+                        <div class="col-md-6 wow slideInUp" data-wow-delay="0.1s">
+                            <div class="blog-item bg-light rounded overflow-hidden">
+                                <div class="blog-img position-relative overflow-hidden">
+                                    <img class="img-fluid" src="img/blog-1.jpg" alt="">
+                                    <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a>
+                                </div>
+                                <div class="p-4">
+                                    <div class="d-flex mb-3">
+                                        <small class="me-3"><i class="far fa-user text-primary me-2"></i>Kelvin Munyamani</small>
+                                        <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2022</small>
+                                    </div>
+                                    <h4 class="mb-3">How to build a website</h4>
+                                    <p>Creating a website from scratch isn’t as difficult as you might think.
+
+                                        Why?
+                                        
+                                        About ten years ago, website building was still pretty much in its infancy. Nowadays, even a complete beginner can learn how to create a website without any technical knowledge or basic computer skills.
+                                        
+                                        Whether you’re a tech-savvy person or a novice, this guide will help you get started and build your own website.
+                                        
+                                        I have also covered the most common mistakes people make when building a website, so you can avoid them.
+                                        
+                                        If you ever get stuck setting up your website, don’t hesitate to contact me.
+                                        
+                                        Full disclosure: I’m partnered with some of the tools and services that are listed on this page. I’ve used most of them for my own purposes. This helps me to provide free help via email and keep this guide up to date.
+                                        
+                                        Step 1: Register a Domain Name
+                                        (If you already own a domain name, you can skip this step and move to Step 2.)
+                                        
+                                        First things first: every website needs a name.
+                                        
+                                        Website Address Format
+                                        
+                                        Without a name (also known as a domain name), your website simply cannot function. Think of it as a street address for a house, where the address is the domain name and the house is your website.
+                                        
+                                        By owning a domain name, you’ll always have full control over your entire website, no matter what happens. Domains cost around $10/year and renew automatically until you decide to cancel.
+                                        
+                                        When choosing a domain name, there are a few rules you should keep in mind:
+                                        
+                                        If you’re setting up a business website, your domain name should match your company name, for example, YourCompanyName.com
+                                        If you’re planning on making a personal website or personal blog for yourself, then YourName.com is always a great option
+                                        Don’t dwell too much. Most of the best and most unique domain names were bought up decades ago. Go with something that matches your website.
+                                        When registering a domain name, which domain extension should you use (.com, .org, .net)?
+                                        
+                                        There are hundreds of different domain name extensions (TLDs).
+                                        
+                                        The most common ones are .com, .net, and .org. These domain extensions are best suited for websites that want to get potential visitors globally (not just locally). For this site (WebsiteSetup), I chose WebsiteSetup.org, since .com was unavailable. You can get a .com, .org, or .net domain name from Domain.com.
+                                        
+                                        However, if your goal is to only target customers in your local country, for example, in the UK, Canada, or Germany, go with the local extensions like co.uk, .ca, or .de. Again, Domain.com is probably the cheapest place where you get them.
+                                        
+                                        Whichever domain registrar you choose, make sure they’re accredited by the ICANN.
+                                        
+                                        The domain registration process is quite simple. It takes less than five minutes to buy the domain and complete the registration, but it’s an important investment in your website early on.
+                                        
+                                        Step 2: Choose a Website Building Platform
+                                        Your next step is to pick a platform on that your website will be built.
+                                        
+                                        However, there are hundreds of different website builders (and ways) to create a website. And the first mistake that most people often make is they pick the wrong platform to build their site.
+                                        
+                                        If you choose a website builder that isn’t good or flexible enough, you’ll need to start all over again with another platform. It’s doable, but not recommended (since it’s a waste of your time and money).
+                                        
+                                        In order to help make your decision easier, I’ve compiled the statistics (1, 2, 3) to show how websites are being built. Take a look at this graph below:
+                                        
+                                        How websites are being built in 2022
+                                        Website platform statistics
+                                        
+                                        This data shows the market share percentage of 200+ different website building platforms (known as website builders and content management systems).
+                                        
+                                        Two website builders, Shopify and WordPress, are the most commonly used.
+                                        
+                                        And they’re the most popular for a reason.
+                                        
+                                        WordPress is the most flexible (free) tool to build any kind of website, from small to large, and it’s beginner-friendly.
+                                        
+                                        Shopify offers a website-building service to create your own website and online store. This is ideal for smaller brands, small businesses, and individuals who need a simple website.
+                                        
+                                        The other website builders aren’t bad either, but since I’ve used them all, I know that I’d still use WordPress or Shopify over any of the others.
+                                        
+                                        Step 3: Start Building Your Website
+                                        Now for the exciting part.
+                                        
+                                        In the next hour or so, you’ll have a fully working website on your own domain. Do not skip any steps, otherwise, your website might not function as it should.
+                                        
+                                        Remember: I’m here to help. If you have any questions about the guides or simply need some help, don’t hesitate to reach out. I’ll do my best to support you.
+                                        
+                                        Setting Up a Website
+                                        I’ve made two different guides on creating a website. If you are unsure, go with web host + WordPress website builder as it’s cheaper and more flexible.
+                                        
+                                        However, if your goal is to build an eCommerce store, Shopify is a better solution.
+                                        
+                                        How to set up a website using WordPress
+                                        To get started with creating a website with WordPress, you first need to sign up with a preferred web hosting provider. Luckily, almost all well-established and reliable web hosting services have integrated one-click installation for WordPress, so it’s made very easy for you.
+                                        
+                                        These are the steps you need to follow to install WordPress through a web host:
+                                        
+                                        Step 1. Choose a web hosting service
+                                        In this example, I’ll be using Bluehost (recommended). But you can use any other hosting provider as long as it offers a free, one-click WordPress install as Bluehost does.
+                                        
+                                        Once you arrive at their homepage, click “Get Started Now”. After you’ve done that, you’ll be redirected to their hosting plans page.
+                                        
+                                        Bluehost homepage
+                                        
+                                        Step 2. Choose a hosting plan
+                                        Bluehost offers three shared hosting plans. For this guide, we’ll opt for the “Basic” shared hosting plan. The basic plan is a good choice if you’re just starting out and don’t yet have a large volume of inbound website traffic.
+                                        
+                                        Bluehost shared hosting plans
+                                        
+                                        Click “Select” when you’re done.
+                                        
+                                        Note: you can always upgrade your plan later if your business expands.
+                                        
+                                        Step 3. Set up your domain name
+                                        The next step is to connect your new domain name with Bluehost, or you can also register a free domain name (for the first year) directly with them. If you’re not sure about the domain name yet, there’s an option to skip this step.
+                                        
+                                        If you need additional help connecting your domain name with Bluehost, you can follow their detailed article on how to do so.
+                                        
+                                        In this example, I registered a new free domain name myremarkablesite.com.
+                                        
+                                        Bluehost how to use your own domain name
+                                        
+                                        Once you’re done, click “Next”.
+                                        
+                                        Step 4. Create your account and check your package information
+                                        Simply fill out all the required information, such as your first and last name, address, email, and so on.
+                                        
+                                        Create Your Bluehost Account
+                                        
+                                        When you scroll down, check your package information and the add-ons that are included. Remember to select only those that you need.
+                                        
+                                        Before you enter your payment information, double-check all the above criteria, and if everything is correct, click “Submit”.
+                                        
+                                        And you’re done!
+                                        
+                                        Now create your account user and log in to your client area so I can show you how to install WordPress in just a few clicks.
+                                        
+                                        Finalisation BluehostStep 5. Install WordPress
+                                        After you’ve logged in to your Bluehost account, you should see the following page:
+                                        
+                                        Bluehost Create Your Website
+                                        
+                                        All you have to do is click on the “Create your website” button.
+                                        
+                                        The next step is to decide the purpose of your site. You can choose between Blog, Store, Business website, or Portfolio site/Resume. If any of those don’t quite fit, you can select an option in the “Other” dropdown list.
+                                        
+                                        purpose of the site 
+                                        
+                                        Next up is to choose how you’d like to build your website. Bluehost gives you an option to choose between Bluehost website builder and WordPress.
+                                        
+                                        Since I want to focus on theme-based site building, I chose the latter.
+                                        
+                                        Building options Bluehost
+                                        Installing WordPress through Bluehost
+                                        Click “Get started” and let’s move on to the next step.
+                                        
+                                        Step 6. Start customizing your WordPress site
+                                        Before we can get down into the nitty-gritty, Bluehost will ask you what type your website is, and once confirmed, it’ll suggest a few plugins and extensions.
+                                        
+                                        Goals of the website 
+                                        
+                                        In my example, I categorized my own blog as “Education”. Once you’re done with your decision, click “Continue”.
+                                        
+                                        You can also skip this step.
+                                        
+                                        Step 7. Pick your theme
+                                        Now is the time to pick your theme. Bluehost will give you a bunch of free and premium WordPress themes to choose from. Moreover, you can sort the templates by popularity, category, features, and layouts.
+                                        
+                                        Bluehost theme selection
+                                        
+                                        Once you’ve found your preferred WordPress theme, hover over the option and click on “Use This Theme”. In my example, I’ll be using the theme “Twenty Twenty-One”.
+                                        
+                                        Note: if you change your mind, you can always modify your theme later on. To do that, log in to your WordPress dashboard and navigate to Appearance > Themes. From there you can browse a whole host of templates or even upload your own custom theme.
+                                        
+                                        Step 8. Customize your design
+                                        After you clicked on “Use This Theme”, you should now see the following page:
+                                        
+                                        Customise your design
+                                        
+                                        This is your Bluehost client area, and from there you can log in to your WordPress dashboard and also update or add plugins.
+                                        
+                                        Note: you can also modify and install plugins from your WordPress dashboard under the tab “Plugins”.
+                                        
+                                        However, right now, what’s important for us is to start customizing the new WordPress site.
+                                        
+                                        For that, all you need to do is click on the “Customize site” button, and you’ll be redirected to the visual editor page:
+                                        
+                                        Bluehost editor 
+                                        
+                                        On the left sidebar, you’ll see the options that will allow you to modify your website’s design, such as:
+                                        
+                                        Title and tagline
+                                        Site logo
+                                        Fonts
+                                        Colors
+                                        Widgets
+                                        Background image, etc.
+                                        Note: the options that appear will vary depending on which theme you’ve installed.
+                                        
+                                        You also have the option to add CSS (Cascading Style Sheets) to your site to make it even more unique.
+                                        
+                                        I recommend playing around with the drag and drop editor and testing different fonts and color schemes to get a sense of how you want your site to look.
+                                        
+                                        Once you’ve tweaked your site’s design to perfection, it’s time to move on to pages and content.
+                                        
+                                        Add the most important pages, content, and customization
+                                        By now, you should’ve set up a WordPress (or Shopify) site.
+                                        
+                                        The foundation of your site has been built; now it’s time to really start building it out.
+                                        
+                                        The first step is to build out the pages that you’re going to need the most. I’ll throw in the most popular pages that most business websites have, so you can pick out the ones that you will add as well:
+                                        
+                                        Homepage
+                                        About us
+                                        Contact page – you can add your social links (Facebook page, Twitter, etc.) there too
+                                        Our services/products
+                                        Blog
+                                        Hire us
+                                        Privacy policy
+                                        Gallery
+                                        Testimonials/reviews.
+                                        If you’re unsure what your website should include, read this article about the 12 critical elements that every website needs.
+                                        
+                                        Once you’ve decided which pages you need, it’s time to start adding them to your website and set up your website navigation.
+                                        
+                                        How to add pages and content in WordPress
+                                        A blank website without any pages or content isn’t much use to anybody, so in order to make the website accessible and interesting, we need to add some pages and blog posts. There are pages that most websites need, such as a homepage, services, about us, contact us, and blog among many other pages.
+                                        
+                                        How to add pages and content to WordPress
+                                        In order to add pages to WordPress, you need to navigate from the left-hand menu to “Pages” and from there click the button “Add New”.
+                                        
+                                        How to add new pages to WordPress
+                                        
+                                        This will take you to the WordPress block editor which is also called Gutenberg Editor. If it’s your first time visiting this, then it will display a quick step-by-step tutorial on how it works and where certain things are. It’s quite easy to work; everything is block-based, which means if you want to add something to your page, you just need to choose the correct block from the menu and fill it in.
+                                        
+                                        WordPress how to add content to a page
+                                        
+                                        On the left, in the content block section, there are multiple content blocks to choose from. Each serves a different purpose and adds different visual elements to that page.
+                                        
+                                        And on the right-hand menu, you can change some page-wide settings like the author, what the permalink (URL) is, the featured image, and more. Or on the top, you can click on the “Block” tab and open up the block settings for any block that you’ve selected on the page.
+                                        
+                                        Once you’re happy with the page, you can either choose to make it public, which will make that visible to any visitor, or you can choose to make it private, which means that it’s only visible when you’re logged in to your WordPress account. This is a great option if you’re not yet finished with that page. There’s also an option to preview the changes you’ve made or to publish that page at a certain date and time.
+                                        
+                                        How to organize the navigation menu
+                                        Now that you’ve created the pages, you need time to add them to the navigation bar. This is the bar that is located on top of your website where your site visitors can get access to the rest of the content on your website.
+                                        
+                                        In order to change that, you need to go from the left-hand menu to “Appearance” followed by “Menus”.
+                                        
+                                        Now it’s time to create your first menu. The name of the menu doesn’t matter since this is only visible to you; so name your menu and then make sure you check the box where it says that this is your primary menu. After you’ve created the menu, you can start adding pages there.
+                                        
+                                        WordPress creating a main navigation menu
+                                        
+                                        You can also create sub-items, which means that these pages are revealed when a user hovers their cursor over them. For example, here, I’ve done that by adding “About Us” and “Contact Us” under the “About” category.
+                                        
+                                        Customizing website
+                                        For customizing your site, go to your WordPress dashboard and choose “Appearance” from the left-hand menu. You can tweak your website’s theme from there, add and change widgets, customize your menu’s structure, and so on. Basically, every change that you want to create on your website can be done under the “Appearance” tab.
+                                        
+                                        WordPress customizing the website
+                                        
+                                        Also, if you feel comfortable with the code, you can add custom CSS and fully customize your site. You can add custom CSS from the customizer.
+                                        
+                                        Adding blog posts
+                                        Adding a blog is optional. Creating one, however, is a good idea if you want to regularly publish fresh content, demonstrate your expertise, and provide additional value to your visitors.
+                                        
+                                        First, it’s a good idea to have a dedicated blog page and make your homepage static. To do that, create an empty page (Pages -> Add New), name it “Blog” (or whatever you want but “Blog” makes sense because it will automatically create the address: yoursite.com/blog), and publish it. Then, pick it as your “Posts Page” either under Appearance -> Customize -> Homepage Settings or under Settings -> Reading.
+                                        
+                                        Reading settings in WordPress
+                                        
+                                        Your chosen page will automatically display all blog posts when you save them. Be sure to include them in your navigation menu.
+                                        
+                                        Once this is done, you can start creating your blog posts. This can be done via “Posts” and “Add New”.
+                                        
+                                        WordPress adding a blog page
+                                        
+                                        After you click “Add New”, you’ll be redirected to the editor page where you can start creating your post. Add images, content, a title, and anything else needed for the blog post. In the sidebar on the right, you’ll also find options to apply categories and tags, define an excerpt, and set up a featured image.
+                                        
+                                        adding a blog to wordpress
+                                        
+                                        Once you’re done, click on “Publish” and your post will appear under the dedicated blog page.
+                                        
+                                        Fine-tune, test, and launch
+                                        Now that you’ve added the content and pages you need for your first website, it’s time to start preparing for the launch.
+                                        
+                                        We’ve listed 30+ things you should check before launching a website, but some of the suggestions aren’t always necessary for WordPress and Shopify users. However, it wouldn’t hurt to double-check.
+                                        
+                                        In order to make sure that everything works as expected, be sure to do the following:
+                                        
+                                        Browse all your pages one by one, and make sure all the links and pages are working
+                                        Proofread your content and copy
+                                        Check your website for a mobile-optimized version
+                                        Make sure your SSL (https) certificate works
+                                        Create social media accounts (if you don’t have them already).</p>
+                                    <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 wow slideInUp" data-wow-delay="0.6s">
+                            <div class="blog-item bg-light rounded overflow-hidden">
+                                <div class="blog-img position-relative overflow-hidden">
+                                    <img class="img-fluid" src="img/blog-2.jpg" alt="">
+                                    <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a>
+                                </div>
+                                <div class="p-4">
+                                    <div class="d-flex mb-3">
+                                        <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
+                                        <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
+                                    </div>
+                                    <h4 class="mb-3">How to build a website</h4>
+                                    <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
+                                    <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 wow slideInUp" data-wow-delay="0.1s">
+                            <div class="blog-item bg-light rounded overflow-hidden">
+                                <div class="blog-img position-relative overflow-hidden">
+                                    <img class="img-fluid" src="img/blog-3.jpg" alt="">
+                                    <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a>
+                                </div>
+                                <div class="p-4">
+                                    <div class="d-flex mb-3">
+                                        <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
+                                        <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
+                                    </div>
+                                    <h4 class="mb-3">How to build a website</h4>
+                                    <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
+                                    <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 wow slideInUp" data-wow-delay="0.6s">
+                            <div class="blog-item bg-light rounded overflow-hidden">
+                                <div class="blog-img position-relative overflow-hidden">
+                                    <img class="img-fluid" src="img/blog-1.jpg" alt="">
+                                    <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a>
+                                </div>
+                                <div class="p-4">
+                                    <div class="d-flex mb-3">
+                                        <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
+                                        <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
+                                    </div>
+                                    <h4 class="mb-3">How to build a website</h4>
+                                    <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
+                                    <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 wow slideInUp" data-wow-delay="0.1s">
+                            <div class="blog-item bg-light rounded overflow-hidden">
+                                <div class="blog-img position-relative overflow-hidden">
+                                    <img class="img-fluid" src="img/blog-2.jpg" alt="">
+                                    <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a>
+                                </div>
+                                <div class="p-4">
+                                    <div class="d-flex mb-3">
+                                        <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
+                                        <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
+                                    </div>
+                                    <h4 class="mb-3">How to build a website</h4>
+                                    <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
+                                    <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 wow slideInUp" data-wow-delay="0.6s">
+                            <div class="blog-item bg-light rounded overflow-hidden">
+                                <div class="blog-img position-relative overflow-hidden">
+                                    <img class="img-fluid" src="img/blog-3.jpg" alt="">
+                                    <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a>
+                                </div>
+                                <div class="p-4">
+                                    <div class="d-flex mb-3">
+                                        <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
+                                        <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
+                                    </div>
+                                    <h4 class="mb-3">How to build a website</h4>
+                                    <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
+                                    <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 wow slideInUp" data-wow-delay="0.1s">
+                            <div class="blog-item bg-light rounded overflow-hidden">
+                                <div class="blog-img position-relative overflow-hidden">
+                                    <img class="img-fluid" src="img/blog-1.jpg" alt="">
+                                    <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a>
+                                </div>
+                                <div class="p-4">
+                                    <div class="d-flex mb-3">
+                                        <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
+                                        <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
+                                    </div>
+                                    <h4 class="mb-3">How to build a website</h4>
+                                    <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
+                                    <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 wow slideInUp" data-wow-delay="0.6s">
+                            <div class="blog-item bg-light rounded overflow-hidden">
+                                <div class="blog-img position-relative overflow-hidden">
+                                    <img class="img-fluid" src="img/blog-2.jpg" alt="">
+                                    <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a>
+                                </div>
+                                <div class="p-4">
+                                    <div class="d-flex mb-3">
+                                        <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
+                                        <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
+                                    </div>
+                                    <h4 class="mb-3">How to build a website</h4>
+                                    <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
+                                    <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 wow slideInUp" data-wow-delay="0.1s">
+                            <div class="blog-item bg-light rounded overflow-hidden">
+                                <div class="blog-img position-relative overflow-hidden">
+                                    <img class="img-fluid" src="img/blog-3.jpg" alt="">
+                                    <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a>
+                                </div>
+                                <div class="p-4">
+                                    <div class="d-flex mb-3">
+                                        <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
+                                        <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
+                                    </div>
+                                    <h4 class="mb-3">How to build a website</h4>
+                                    <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
+                                    <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 wow slideInUp" data-wow-delay="0.6s">
+                            <div class="blog-item bg-light rounded overflow-hidden">
+                                <div class="blog-img position-relative overflow-hidden">
+                                    <img class="img-fluid" src="img/blog-1.jpg" alt="">
+                                    <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a>
+                                </div>
+                                <div class="p-4">
+                                    <div class="d-flex mb-3">
+                                        <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
+                                        <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
+                                    </div>
+                                    <h4 class="mb-3">How to build a website</h4>
+                                    <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
+                                    <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 wow slideInUp" data-wow-delay="0.1s">
+                            <nav aria-label="Page navigation">
+                              <ul class="pagination pagination-lg m-0">
+                                <li class="page-item disabled">
+                                  <a class="page-link rounded-0" href="#" aria-label="Previous">
+                                    <span aria-hidden="true"><i class="bi bi-arrow-left"></i></span>
+                                  </a>
+                                </li>
+                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                  <a class="page-link rounded-0" href="#" aria-label="Next">
+                                    <span aria-hidden="true"><i class="bi bi-arrow-right"></i></span>
+                                  </a>
+                                </li>
+                              </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog list End -->
+    
+                <!-- Sidebar Start -->
+                <div class="col-lg-4">
+                    <!-- Search Form Start -->
+                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                        <div class="input-group">
+                            <input type="text" class="form-control p-3" placeholder="Keyword">
+                            <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                        </div>
+                    </div>
+                    <!-- Search Form End -->
+    
+                    <!-- Category Start -->
+                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                        <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                            <h3 class="mb-0">Categories</h3>
+                        </div>
+                        <div class="link-animated d-flex flex-column justify-content-start">
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Web Design</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Web Development</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Web Development</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Keyword Research</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Email Marketing</a>
+                        </div>
+                    </div>
+                    <!-- Category End -->
+    
+                    <!-- Recent Post Start -->
+                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                        <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                            <h3 class="mb-0">Recent Post</h3>
+                        </div>
+                        <div class="d-flex rounded overflow-hidden mb-3">
+                            <img class="img-fluid" src="img/blog-1.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                            <a href="" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
+                            </a>
+                        </div>
+                        <div class="d-flex rounded overflow-hidden mb-3">
+                            <img class="img-fluid" src="img/blog-2.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                            <a href="" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
+                            </a>
+                        </div>
+                        <div class="d-flex rounded overflow-hidden mb-3">
+                            <img class="img-fluid" src="img/blog-3.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                            <a href="" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
+                            </a>
+                        </div>
+                        <div class="d-flex rounded overflow-hidden mb-3">
+                            <img class="img-fluid" src="img/blog-1.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                            <a href="" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
+                            </a>
+                        </div>
+                        <div class="d-flex rounded overflow-hidden mb-3">
+                            <img class="img-fluid" src="img/blog-2.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                            <a href="" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
+                            </a>
+                        </div>
+                        <div class="d-flex rounded overflow-hidden mb-3">
+                            <img class="img-fluid" src="img/blog-3.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                            <a href="" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Recent Post End -->
+    
+                    <!-- Image Start -->
+                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                        <img src="img/blog-1.jpg" alt="" class="img-fluid rounded">
+                    </div>
+                    <!-- Image End -->
+    
+                    <!-- Tags Start -->
+                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                        <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                            <h3 class="mb-0">Tag Cloud</h3>
+                        </div>
+                        <div class="d-flex flex-wrap m-n1">
+                            <a href="" class="btn btn-light m-1">Design</a>
+                            <a href="" class="btn btn-light m-1">Development</a>
+                            <a href="" class="btn btn-light m-1">Marketing</a>
+                            <a href="" class="btn btn-light m-1">SEO</a>
+                            <a href="" class="btn btn-light m-1">Writing</a>
+                            <a href="" class="btn btn-light m-1">Consulting</a>
+                            <a href="" class="btn btn-light m-1">Design</a>
+                            <a href="" class="btn btn-light m-1">Development</a>
+                            <a href="" class="btn btn-light m-1">Marketing</a>
+                            <a href="" class="btn btn-light m-1">SEO</a>
+                            <a href="" class="btn btn-light m-1">Writing</a>
+                            <a href="" class="btn btn-light m-1">Consulting</a>
+                        </div>
+                    </div>
+                    <!-- Tags End -->
+    
+                    <!-- Plain Text Start -->
+                    <div class="wow slideInUp" data-wow-delay="0.1s">
+                        <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                            <h3 class="mb-0">Plain Text</h3>
+                        </div>
+                        <div class="bg-light text-center" style="padding: 30px;">
+                            <p>Vero sea et accusam justo dolor accusam lorem consetetur, dolores sit amet sit dolor clita kasd justo, diam accusam no sea ut tempor magna takimata, amet sit et diam dolor ipsum amet diam</p>
+                            <a href="" class="btn btn-primary py-2 px-4">Read More</a>
+                        </div>
+                    </div>
+                    <!-- Plain Text End -->
+                </div>
+                <!-- Sidebar End -->
+            </div>
+        </div>
+    </div>
+    <!-- Blog End -->
+
+
+    
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light mt-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-lg-4 col-md-6 footer-about">
+                    <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary p-4">
+                        <a href="index.html" class="navbar-brand">
+                            <h1 class="m-0 text-white"><i class="fa fa-user-tie me-2"></i>Startup</h1>
+                        </a>
+                        <p class="mt-3 mb-4">Complete the form below and we will contact you to discuss your enquiry</p>
+                        <form action="">
+                            <div class="input-group">
+                                <input type="text" class="form-control border-white p-3" placeholder="Your Email">
+                                <button class="btn btn-dark">Sign Up</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-6">
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-white" style="background: #061429;">
+        <div class="container text-center">
+            <div class="row justify-content-end">
+                <div class="col-lg-8 col-md-6">
+                    <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
+                        <p class="mb-0">&copy; <a class="text-white border-bottom" href="#">Your Site Name</a>. All Rights Reserved. 
+						
+						<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+						Designed by <a class="text-white border-bottom" href="https://htmlcodex.com">HTML Codex</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
